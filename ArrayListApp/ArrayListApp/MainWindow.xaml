@@ -1,0 +1,17 @@
+﻿<Window x:Class="ArrayListApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ArrayListApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="93,211,0,0" VerticalAlignment="Top" Width="177" Height="70" Click="Button_Click_1"/>
+        <Button Content="Remove" HorizontalAlignment="Left" Margin="305,211,0,0" VerticalAlignment="Top" Width="177" Height="70" Click="Button_Click_2"/>
+        <Button Content="Show All" HorizontalAlignment="Left" Margin="515,211,0,0" VerticalAlignment="Top" Width="177" Height="70" Click="Button_Click"/>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Height="23" Margin="237,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="308"/>
+        <TextBlock HorizontalAlignment="Left" Margin="174,155,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
